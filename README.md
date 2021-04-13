@@ -4,6 +4,9 @@
 
 Lista de compras desenvolvida em ReactJS com utilização do Hooks useState.
 
+Baseado no tutorial da [Cod3r](https://blog.cod3r.com.br/utilizando-hooks-usestate/)
+
+
 **Hospeadado em: [Netlify](https://list-reactjs.netlify.app/)**
 
 
