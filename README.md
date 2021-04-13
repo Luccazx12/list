@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/535ccc32-3b74-4753-a9b5-03a37b141511/deploy-status)](https://app.netlify.com/sites/list-reactjs/deploys)
+
 # List React
 
 Lista de compras desenvolvida em ReactJS com utilização do Hooks useState.
