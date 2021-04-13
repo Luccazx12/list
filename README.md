@@ -1,5 +1,6 @@
 # List React
-Aplicação contendo **ReactJS** + **Bootstrap** baseado no tutorial do WebSite [Celke](https://celke.com.br/artigo/como-integrar-o-react-com-bootstrap).
+
+Lista de compras desenvolvida em ReactJS com utilização do Hooks useState.
 
 **Hospeadado em: [Netlify](https://list-reactjs.netlify.app/)**
 
