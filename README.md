@@ -38,7 +38,7 @@ npm install -g create-react-app
 
 1 - Dentro da pasta do seu projeto, execute o seguinte comando: 
 ```sh
-create-react-app aplicacao
+npx create-react-app list
 ```
 
 2 - Esse comando criará vários arquivos dentro da pasta *aplicacao*, dentre eles, pacotes. Para continuarmos a instalação desses pacotes, digite o seguinte comando para acessarmos a pasta do nosso projeto:
