@@ -89,12 +89,12 @@ const [item, setItem] = useState('');
 - Um outro estado capaz de armazenar uma lista
 - Uma função que seja capaz de adicionar o valor à lista
 
-*Para criarmos outro estado, é simples:
+*Para criarmos outro estado, é simples:*
 ```
 const [itemList, setItemList] = useState([])
 ````
 
-*E a função para conseguirmos adicionar itens também:
+*E a função para conseguirmos adicionar itens também:*
 ```
 const addItem = () => {
     setItemList([item].concat(itemList))
