@@ -1,7 +1,7 @@
 # List React
 Aplicação contendo **ReactJS** + **Bootstrap** baseado no tutorial do WebSite [Celke](https://celke.com.br/artigo/como-integrar-o-react-com-bootstrap).
 
-**Hospeadado em: [Netlify](https://react-bootstrap777.netlify.app/)**
+**Hospeadado em: [Netlify](https://list-reactjs.netlify.app/)**
 
 
 &nbsp;
