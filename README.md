@@ -61,3 +61,42 @@ code .
 ```
 yarn start
 ````
+
+## Hooks - UseState
+
+UseState é uma nova forma de definir e atualizar (mutar) o estado “interno ”de um componente. Mais limpo e menos verboso esse é com certeza um dos melhores hooks lançados nessa versão 16.8.
+
+Vamos importar ele da seguinte forma no App.js: 
+```
+import React, { useState } from 'react';
+````
+
+Logo em seguida, o utilizaremos no App.js:
+```
+const [item, setItem] = useState('');
+````
+
+E como nosso código depende de um INPUT, precisamos modifica-lo da seguinte forma para funcionar com o useState:
+```
+<input type="text" placeholder="Item" value={item} name="item" onChange = {e => setItem(e.target.value)} />
+````
+
+Para finalizar, precisamos de duas coisas:
+
+- Um outro estado capaz de armazenar uma lista
+- Uma função que seja capaz de adicionar o valor à lista
+
+Para criarmos outro estado, é simples:
+```
+const [itemList, setItemList] = useState([])
+````
+
+E a função para conseguirmos adicionar itens também:
+```
+const addItem = () => {
+    setItemList([item].concat(itemList))
+    setItem('')
+}
+````
+
+
